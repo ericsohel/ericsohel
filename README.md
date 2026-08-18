@@ -16,13 +16,13 @@ ballplayers on demand, and has a working terminal — [go type `help`](https://e
 ## the desk right now
 
 **🤖 multi-agent systems @ Capital One** — two summers, NYC + McLean.
-Most recently: **Clyde** — a multi-agent system (Python, LangGraph, FastAPI)
-that turns a natural-language request into a finished monthly spend-variance
-report, automating ~2 days of manual work per analyst each month; per-stage
-validation and self-correcting retries mean most reports need no analyst
-edits. The summer before: built the entire React front end and the
-wire-execution logic (idempotency keys — each wire executes exactly once)
-for Capital One's in-house wire platform: 5K daily payments worth $1.2B.
+Most recently: a multi-agent system (Python, LangGraph, FastAPI) that
+automates creating financial reports — NL-to-SQL retrieval across 2K tables,
+analysis, and an orchestrator rendering charts and commentary revisable via
+chat. Cut generation time 75% with parallel LLM calls + Redis; adopted by 20
+Finance Tech teams at a 95% satisfaction rate. The summer before: built the
+React UI and the wire-execution logic (idempotency keys — each wire executes
+exactly once) for a wire platform facilitating 5K+ daily payments worth ~$1B.
 
 **⚾ [DraftIQ](https://github.com/ericsohel/draftiq)** — a market
 maker for fantasy baseball auctions. Production REST API pricing every
