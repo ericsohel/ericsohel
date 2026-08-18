@@ -20,8 +20,8 @@ Most recently: a multi-agent financial reporting system (Python + LangGraph)
 that turns natural-language requests into finished reports — a 2-day analyst
 process now takes about a minute, with validation loops and schema-aware
 guardrails doing the trust work (92% of reports ship without corrections).
-The summer before: the approval workflow on Capital One's first in-house
-wire transfer platform (~$1B/day), built on idempotency keys, retries, and
+The summer before: Capital One's first in-house wire transfer platform —
+5K daily payments worth $1.2B — built on idempotency keys, retries, and
 strict validation so a payment can never happen twice.
 
 **⚾ [DraftIQ](https://github.com/ericsohel/player-data-api)** — a market
