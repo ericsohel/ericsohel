@@ -60,7 +60,7 @@ AIME Qualifier (×2) · Stanford Code in Place — section leader → invited ba
 
 ## stack i actually use
 
-`python` · `typescript / node` · `java` · `ocaml` · `sql / postgres` · `redis` ·
+`python` · `C++`, `typescript / node` · `java`  · `sql / postgres` · `redis` ·
 `aws (lambda, ec2)` · `docker` · `github actions` · `langgraph` · `pytorch`
 
 ## reach me
