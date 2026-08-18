@@ -16,13 +16,13 @@ ballplayers on demand, and has a working terminal — [go type `help`](https://e
 ## the desk right now
 
 **🤖 multi-agent systems @ Capital One** — two summers, NYC + McLean.
-Most recently: a multi-agent financial reporting system (Python + LangGraph)
-that turns natural-language requests into finished reports — a 2-day analyst
-process now takes about a minute, with validation loops and schema-aware
-guardrails doing the trust work (92% of reports ship without corrections).
-The summer before: Capital One's first in-house wire transfer platform —
-5K daily payments worth $1.2B — built on idempotency keys, retries, and
-strict validation so a payment can never happen twice.
+Most recently: **Clyde** — a multi-agent system (Python, LangGraph, FastAPI)
+that turns a natural-language request into a finished monthly spend-variance
+report, automating ~2 days of manual work per analyst each month; per-stage
+validation and self-correcting retries mean most reports need no analyst
+edits. The summer before: built the entire React front end and the
+wire-execution logic (idempotency keys — each wire executes exactly once)
+for Capital One's in-house wire platform: 5K daily payments worth $1.2B.
 
 **⚾ [DraftIQ](https://github.com/ericsohel/draftiq)** — a market
 maker for fantasy baseball auctions. Production REST API pricing every
@@ -34,10 +34,17 @@ OpenAPI spec enforced by a CI drift-guard, and a public
 [live demo endpoint](https://draftiq-xkpx.onrender.com/api/v1/demo/valuations)
 that powers the widget on my site.
 
-**🔍 Pysa @ Meta (MLH Fellowship)** — differential testing for the static
-analyzer that hunts taint flows across Instagram's Python. Built a harness
-that synthesized 10,000+ programs with ground-truth source→sink labels to
-catch false negatives ([pyre-check#886](https://github.com/facebook/pyre-check/pull/886)).
+**📈 [orderbook](https://github.com/ericsohel/orderbook)** — a C++17 limit
+order book and matching engine with price-time priority, benchmarked at
+**3.7M ops/s (269 ns mean per op)** on a seeded mixed workload; a JavaScript
+twin held to the same 12-case test list runs as a live market on
+[my site](https://ericsohel.com) — go trade $ERIC.
+
+**🔍 Pysa @ Meta (MLH Fellowship)** — built a fuzzer that generated 10,000+
+Python programs with known source→sink taint flows, uncovering 30+ flows
+missed by Meta's open-source security analyzer
+([pyre-check#886](https://github.com/facebook/pyre-check/pull/886)); also
+added a live timer and performance metrics to Pysa's terminal output.
 My merged PRs live under my old handle →
 [the receipts](https://github.com/facebook/pyre-check/pulls?q=esohel30+).
 
