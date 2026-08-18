@@ -24,14 +24,14 @@ The summer before: Capital One's first in-house wire transfer platform —
 5K daily payments worth $1.2B — built on idempotency keys, retries, and
 strict validation so a payment can never happen twice.
 
-**⚾ [DraftIQ](https://github.com/ericsohel/player-data-api)** — a market
+**⚾ [DraftIQ](https://github.com/ericsohel/draftiq)** — a market
 maker for fantasy baseball auctions. Production REST API pricing every
 draftable MLB player with a z-score-above-replacement engine: live draft-state
 re-valuation, positional scarcity, ranked nominations, budget allocation.
 Self-serve developer portal (scrypt hashing, signed-cookie sessions, CIDR
 whitelisting, sliding-window rate limits), 125 Jest/supertest tests, an
 OpenAPI spec enforced by a CI drift-guard, and a public
-[live demo endpoint](https://player-data-api.onrender.com/api/v1/demo/valuations)
+[live demo endpoint](https://draftiq-xkpx.onrender.com/api/v1/demo/valuations)
 that powers the widget on my site.
 
 **🔍 Pysa @ Meta (MLH Fellowship)** — differential testing for the static
