@@ -4,8 +4,8 @@
 
 ```console
 eric@nyc:~$ whoami
-backend systems · multi-agent ai · security tooling
-fantasy-baseball auction theorist. reads engineering blogs for fun.
+distributed systems · backend · multi-agent ai · security tooling
+
 ```
 
 my site runs a live ticker of what i'm actually listening to, prices 1,600+
