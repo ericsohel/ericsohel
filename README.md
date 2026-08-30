@@ -8,7 +8,7 @@ distributed systems · backend · multi-agent ai · security tooling
 
 ```
 
-my site runs a live ticker of what i'm actually listening to, prices 1,600+
+my site runs a live ticker of what i'm actually listening to, prices 1,300+
 ballplayers on demand, and has a working terminal — [go type `help`](https://ericsohel.com).
 
 ---
@@ -29,14 +29,14 @@ maker for fantasy baseball auctions. Production REST API pricing every
 draftable MLB player with a z-score-above-replacement engine: live draft-state
 re-valuation, positional scarcity, ranked nominations, budget allocation.
 Self-serve developer portal (scrypt hashing, signed-cookie sessions, CIDR
-whitelisting, sliding-window rate limits), 125 Jest/supertest tests, an
+whitelisting, sliding-window rate limits), 131 Jest/supertest tests, an
 OpenAPI spec enforced by a CI drift-guard, and a public
 [live demo endpoint](https://draftiq-xkpx.onrender.com/api/v1/demo/valuations)
 that powers the widget on my site.
 
 **📈 [orderbook](https://github.com/ericsohel/orderbook)** — a C++17 limit
 order book and matching engine with price-time priority, benchmarked at
-**3.7M ops/s (269 ns mean per op)** on a seeded mixed workload; a JavaScript
+**9.9M ops/s (99 ns mean per op)** on a seeded mixed workload; a JavaScript
 twin held to the same 12-case test list runs as a live market on
 [my site](https://ericsohel.com) — go trade $ERIC.
 
@@ -55,8 +55,8 @@ and a bookshelf organized like a trading book.
 
 ## receipts
 
-🏆 Citadel Terminal — **2nd place** · Cornell Trading Competition — **top 5 (×2)** ·
-AIME Qualifier (×2) · Stanford Code in Place — section leader → invited back as Head TA
+🏆 Citadel Terminal AI Competition — **2nd place** · Cornell Trading Competition — **top 5 (×2)** ·
+AIME Qualifier (×3) · Stanford Code in Place — section leader → invited back as Head TA
 
 ## stack i actually use
 
