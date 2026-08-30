@@ -45,8 +45,11 @@ Python programs with known source→sink taint flows, uncovering 30+ flows
 missed by Meta's open-source security analyzer
 ([pyre-check#886](https://github.com/facebook/pyre-check/pull/886)); also
 added a live timer and performance metrics to Pysa's terminal output.
-My merged PRs live under my old handle →
-[the receipts](https://github.com/facebook/pyre-check/pulls?q=esohel30+).
+The fuzzer landed upstream as
+[`scripts/pysa_fuzzer`](https://github.com/facebook/pyre-check/tree/main/scripts/pysa_fuzzer)
+(commit [`99a07a24`](https://github.com/facebook/pyre-check/commit/99a07a24),
+authored under my old handle esohel30) and has since been extended by Meta's
+Pysa team.
 
 **🖥️ [ericsohel.com](https://ericsohel.com)** — hand-rolled HTML/CSS/JS, no
 frameworks, no templates. Interactive terminal, a ticker tape fed by the
