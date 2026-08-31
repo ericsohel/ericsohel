@@ -36,7 +36,7 @@ that powers the widget on my site.
 
 **📈 [orderbook](https://github.com/ericsohel/orderbook)** — a C++17 limit
 order book and matching engine with price-time priority, benchmarked at
-**19.2M ops/s (52 ns mean per op)** on a seeded mixed workload, with O(1) cancels measured flat against queue depth; a JavaScript
+**24.3M ops/s (41 ns mean per op)** on a seeded mixed workload, with O(1) cancels measured flat against queue depth — and it replays a full NASDAQ TotalView-ITCH day (268.7M messages) in 20.5s with zero integrity violations; a JavaScript
 twin held to the same 12-case test list runs as a live market on
 [my site](https://ericsohel.com) — go trade $ERIC.
 
